@@ -288,7 +288,7 @@ for epoch in range(100):
             motion_pred = (pred_vel.cumsum(dim=1) + motion_gt[:, 49:50])
             # motion_pred = pred_vel
 
-            motion_gt = motion_gt[:, 50:75, :].view(batch_size, 25, n_person, 15, 3).permute(0, 2, 1, 3, 4)
+            motion_gt = motion_gt[:, 49:74, :].view(batch_size, 25, n_person, 15, 3).permute(0, 2, 1, 3, 4)
             motion_pred = motion_pred.view(batch_size, 25, n_person, 15, 3).permute(0, 2, 1, 3, 4)
 
             prediction = motion_gt
