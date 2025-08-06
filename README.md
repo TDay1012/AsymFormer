@@ -23,6 +23,9 @@ your_project_folder/
 ├── Model
 │   ├── short_model.py
 │   ├── ...
+├── detector
+│   ├── detector.py
+│   ├── short_interaction_detector.pth
 ├── data_short
 ├── metrics.py
 ├── test.py
