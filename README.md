@@ -7,6 +7,9 @@ Multi-person pose forecasting has garnered increasing attention due to its criti
 ## Overview
 ![Alt text](pic/AsymFormer-2.0.png)
 
+
+## Interactive training dataset :https://drive.google.com/drive/folders/1oO5kJgwtXtRJ0C9At25Ny4m5CThk24J9?usp=drive_link
+
 ```
 your_project_folder/
 ├── data/
